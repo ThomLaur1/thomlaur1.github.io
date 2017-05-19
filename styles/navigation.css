@@ -1,0 +1,83 @@
+
+.navigation{
+    margin: 0 auto;
+}
+
+#main-navigation{
+    margin: auto 0;
+}
+
+#main-navigation > ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#main-navigation > ul > li {
+    display: block;
+    float: right;
+}
+
+#main-navigation > ul > li > a {
+    display:block;
+    text-decoration:none;
+    padding: 36px 0 30px 30px;
+    color:black;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#main-navigation > ul > li > a:hover,
+#main-navigation > ul > li > a:focus,
+#main-navigation > ul > li.active > a {
+    color: #bbd7c0;
+}
+
+
+
+#main-navigation > ul > li ul {
+    background:white;
+    position: relative;
+    left:0;
+    top:100%;
+    width:89px;
+    margin:0px;
+    padding:0;
+    list-style: none;
+    display:none;
+}
+#main-navigation > ul li:hover > ul {
+    display:block;
+}
+#main-navigation > ul > li > ul li {
+    display:block;
+    position:relative;
+}
+#main-navigation > ul > li ul > li > a {
+    display:block;
+    text-decoration:none;
+    padding:5px 15px;
+    color:#585858;
+    font-weight:800;
+    text-align: right;
+}
+#main-navigation > ul > li > ul > li ul {
+    top: 0;
+    left: 100%;
+}
+#main-navigation > ul > li > ul li.hasSubMenu > a::before {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -10px;
+}
+#main-navigation > ul > li > ul li > a:hover,
+#main-navigation > ul > li > ul li:hover > a,
+#main-navigation > ul > li > ul li a:focus,
+#main-navigation > ul > li > ul li:focus > a,
+#main-navigation > ul > li > ul li.active > a
+{
+    color: #bbd7c0;
+    background-color: white;
+}

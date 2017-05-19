@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+body{
+    font-family: Lato;
+    font-style: light;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    line-height: 180%;
+}
+
+h1{
+    font-family: Lato;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: #bbd7c0;
+    margin: 30px 0;
+}
+
+h2{
+    font-family: Lato;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #bbd7c0;
+}
+
+a{
+    text-decoration: none;
+
+}
+.text-banner{
+    margin-bottom: 50px;
+}
+
+.text-banner > p {
+    font-size: 14pt;
+}
+
+.text-banner > h2,
+.text-banner > p {
+    text-align: center;
+}
+
+.fixed-header{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+    z-index: 99;
+    background-color: white;
+}
+
+.footer-wrapper{
+    background-color: #585858;
+    height: 168px;
+    color: white;
+}
+.footer {
+    padding: 0px 0;
+}
+.footer_links{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.footer_midden{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.footer_rechts{
+    text-align: right;
+    padding-top: 42px;
+    padding-bottom:42px;
+}
+
+.social > ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social > ul > li{
+    float: left;
+    
+}
+
+.social > ul > li > a{
+    display:block;
+    text-decoration:none;
+    padding-top: -10px;
+
+    padding-left: 36px;
+    padding-right: 30px;
+    color:white;
+    font-size: 3em;
+
+}
+
+header .logo{
+    float:left;
+    line-height: 100px;
+}
+
+.photo{
+    display: block;
+    width: 100%;
+}
+
+.content{
+    padding-bottom: 30px;
+    min-height: 326.66px;
+}
+
+.content .rechts{
+    text-align: right;
+}
+
+.dienst_titel{
+    text-align: center;
+
+}
+
+iframe{
+    margin-bottom: 30px;
+}
+
+.contact-button{
+    text-decoration: none;
+    width: 300px;
+    padding: 20px 15px;
+    text-align: center;
+    color: black;
+    border: solid;
+    font-family: Montserrat;
+    Border: 2px solid #585858;
+    padding: 20px 30px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.contact-button:focus,
+.contact-button:hover,
+button:active{
+    background-color: #bbd7c0;
+    border: 2px solid #bbd7c0;
+    color: White;
+    outline: none;
+}
+
+.map-container iframe{
+	width: 100%;
+	display: block;
+	pointer-events: none;
+	position: relative; /* IE needs a position other than static */
+}
+
+.map-container iframe.clicked{
+	pointer-events: auto;
+}

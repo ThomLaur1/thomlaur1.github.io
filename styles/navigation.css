@@ -21,7 +21,8 @@
 #main-navigation > ul > li > a {
     display:block;
     text-decoration:none;
-    padding: 36px 0 30px 30px;
+    margin-right: -30px;
+    padding: 36px 30px 30px 30px;
     color:black;
     font-weight: 800;
     text-transform: uppercase;
@@ -37,12 +38,13 @@
 
 #main-navigation > ul > li ul {
     background:white;
-    position: relative;
+    opacity: 0.85;
+    float: right;
     left:0;
     top:100%;
-    width:89px;
+    width: 120px;
     margin:0px;
-    padding:0;
+    margin-right:-10px;
     list-style: none;
     display:none;
 }
@@ -57,7 +59,7 @@
     display:block;
     text-decoration:none;
     padding:5px 15px;
-    color:#585858;
+    color:black;
     font-weight:800;
     text-align: right;
 }
@@ -66,7 +68,6 @@
     left: 100%;
 }
 #main-navigation > ul > li > ul li.hasSubMenu > a::before {
-    content: '+';
     position: absolute;
     top: 50%;
     right: 15px;

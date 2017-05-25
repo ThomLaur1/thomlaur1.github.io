@@ -158,3 +158,8 @@ button:active{
 .map-container iframe.clicked{
 	pointer-events: auto;
 }
+
+.text-link{
+    text-decoration:none;
+    color: #bbd7c0;
+}

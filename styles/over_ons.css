@@ -1,0 +1,23 @@
+
+.member {
+    position: relative;
+    display: block;
+}
+.member > div {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+.member:hover > div,
+.member:focus > div
+.member:active > div{
+    display: block;
+}
+.member_column-4{
+    position: relative;
+    float: left;
+    padding-right: 30px;
+
+}
